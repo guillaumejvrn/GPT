@@ -1,14 +1,3 @@
-Voici un `README.md` complet, structuré exactement selon ton plan :
-
-1. Une **vue d'ensemble concise** (pitch rapide).
-2. Une **explication technique approfondie** (démontrant que l'architecture est au standard moderne de l'état de l'art et évolutive).
-3. La **structure du repo**.
-4. Le guide pas à pas pour **installer, dimensionner et lancer**.
-5. Les résultats et benchmarks.
-
----
-
-```markdown
 # 🧠 LLM — Modern Autoregressive Pipeline
 
 A modular, production-grade Language Model training pipeline written from scratch in **Rust** and **PyTorch**.
@@ -307,7 +296,5 @@ Because this codebase follows modular modern Transformer conventions, it serves 
 * **Grouped-Query Attention (GQA):** Reduce KV cache memory pressure during inference by sharing key/value heads across query groups.
 * **Mixture of Experts (MoE):** Replace the single SwiGLU feed-forward layer with sparsely gated top-k expert routing to scale parameter count without increasing FLOPs per token.
 * **Direct Preference Optimization (DPO):** Stack preference alignment directly on top of the SFT checkpoint using pair-wise reward margins.
-
-```
 
 ```
